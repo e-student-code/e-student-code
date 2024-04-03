@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+
+:root {
+    --cor0: rgba(201, 200, 200, 0.192);
+    --co01: rgba(206, 206, 206, 0.499);
+    --cor1: #c0bebe;
+    --cor2: #000500;
+    --cor3: #EAEAEA;
+    --cor4: #101010;
+    --cor5: #e1e1e1;
+    --cor6: #f5f5f5;
+    --cor7: #080808;
+
+    --fonte-padrao: "Dosis", sans-serif;
+    --fonte-sub: "Dosis", sans-serif;
+
+    --profile: url'images/profile.jpeg';
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: var(--fonte-padrao);  
+    letter-spacing: 0.1em;
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+  background-color: var(--cor7);
+  color: var(--cor5);
+}
+
+.logo {
+    cursor: pointer;
+}
+
+header {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  padding: 30px 10%;
+  width: 80vw;
+  height: 10vh;
+
+  
+}
+
+header > h1 {
+  color: var(--cor3);
+  font-size: 3em;
+  text-align: center;
+  
+}
+
+picture > img{
+  width: 60px;
+  border-radius: 20px;
+}
+
+nav {
+  border-radius: 60px;
+  padding: 10px;
+  background-color: #ffffff10;
+}
+
+nav > ul > li {
+  display: inline-block;
+  list-style-type: none;
+}
+nav a, footer a {
+  font-size: 1.2em;
+  color: var(--cor3);
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition-duration: .2s;
+}
+
+nav a:hover, footer a:hover {
+  background-color: var(--cor4);
+  font-size: 120%;
+  border-radius: 0.6em;
+}
+.secondary-nav {
+  background-color: transparent;
+}
+
+.secondary-nav a, h5{
+  font-family: var(--fonte-sub);
+  font-size: small;
+  font-weight: lighter;
+}
+
+main {
+  position: relative;
+  min-width: 300px;
+  max-width: auto;
+  margin: 1.5em 8em 4em 8em;  
+  text-align: left;
+  border-radius: 12px;
+  background-color: var(--cor1);
+}
+
+section > h2 {
+  font-size: 2.5em;
+  color: var(--cor6);
+  text-shadow: 2px 2px 8px var(--cor6);
+}
+
+.section-size {
+  padding: 2%;
+  width: auto;
+  margin-bottom: 2.5em;
+  background-color: var(--cor4);
+}
+
+section#aboutme {
+  width: auto;
+  height: auto;
+}
+
+section#aboutme img {
+  width: 14px;
+  border-radius: 20px;
+}
+
+section#skills {
+  width: auto;
+  height: auto;
+}
+
+section#projects {
+  width: auto;
+  height: 80vh;
+}
+
+section h3 {
+  font-family: var(--fonte-sub);
+  font-size: 0.7em;
+}
+
+section > p {
+  font-family: var(--fonte-sub);
+  color: var(--cor5);
+}
+
+section p > i {
+  font-family: var(--fonte-sub);
+  color: var(--cor5);
+}
+
+
+section a {
+  font-family: var(--fonte-sub);
+  color: var(--cor5);
+  text-decoration: none;
+}
+
+section a:hover {
+  color: var(--cor6);
+
+}
+
+footer {
+  width: 100vw;
+  margin: auto;
+  bottom: 0;
+  padding-bottom: 2%;
+}
+
+footer > p {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+footer > p > a {
+  color: grey;
+  font-weight: lighter;
+}
+
+/* Shadow Effect*/
+.shadow {
+  box-shadow: 0px 8px 8px 2px var(--co01);
+}
+
+.nav-footer-shadow {
+  box-shadow: 0px 7px 7px var(--cor0);
+}
+
+section#blog {
+  font-size: 20px;
+}
+
+section#blog p{
+  line-height: 1.5em;
+}
+
+
+.post {
+  padding-left:  2em;
+  padding-right: 2.2em;
+}
+
+.post h2{
+  text-align: center;
+  font-family: var(--fonte-sub);
+
+}
+
+.post p{
+  text-align: justify;
+  font-size: 16px;
+  font-family: var(--fonte-sub);
+}
+
+.img-post{
+  text-align: center;
+  padding-bottom: 1 em;
+}
+
+.img-post img{
+  height: 400px;
+  margin: auto;
+  display: block;
+}
+
+pre code {
+  background-color: var(--cor2);
+  border-radius: 4px;
+  border-bottom: 1px solid var(--cor1);
+  display: block;
+  padding: 2px;
+  height: 50px;
+  text-align: left;
+  font-weight: lighter;
+  font-size: small;
+}

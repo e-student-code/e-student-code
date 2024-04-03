@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/style-query.css" media="all">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link rel="icon" href="/assets/images/profile.jpeg" type="image/x-icon">
+    <meta name="author" content="e student">
+    <meta name="description" content="Cybersecurity blog and Portfolio">
+    <meta name="keywords" content="HTML, CSS, Linux, Programming, Kernel, Hacking, Pentest, Blue team, Red team, SOC - security operations center, gtk, gnome developer, solus os">
+
+    <title>CybersecurityBlog</title>
+</head>
+
+<body>
+
+<header>
+    <picture>
+        <img src="/assets/images/profile.jpeg" alt="profile" class="nav-footer-shadow">
+    </picture>
+
+    <h5>e student</h5>
+
+    <h1 class="animate__animated animate__bounce animate__faster">Cybersecurity Blog</h1>
+    
+    <nav class="nav-footer-shadow">
+        <ul>
+            <li><a href="/index.html">📘Blog</a>
+            <li><a href="./../resume.html">About Me</a>
+        </ul>
+    </nav>
+                
+</header>
+                
+<main class="shadow">
+                    
+<section id="blog" class="section-size">
+   <h2>📖 Cybersecurity Blog</h2>
+   <br>
+   <h3>📂 Linux OS</h3>
+   <br>
+   <div class="post">
+        <h2>🐧 Solus OS - Getting started</h2>
+        <br>
+        <div class="img-post">
+            <img src="../assets/img-post/01/solus-os.png" alt="Solus OS Desktop">
+        </div>
+           
+        <br>
+        <p>&emsp; I decide get a new operation system for my "study" cases. Was where I find the Solus OS solution for me. Is designed for everyone and in my undertanding words, I can make my cybersec labs, development labs, malware analysis lab.. even for personal or profissional use is perfect.</p>
+        <br>
+        <p>&emsp; Let's start, if you don't have installed <a href="https://getsol.us/download/" target="_blank" style="color: grey;">download it on the official website</a>, I have choose the Solus budgie option, choose what you might like.</p>
+        <p>Here is the "how to install.." <a href="https://help.getsol.us/docs/user/quick-start/installation/" target="_blank" style="color: grey;">official solus documentation.</a></p>
+        <br>
+        <p>Check the system update/upgrade. Open your terminal and type it: </p>
+        
+        <pre>
+            <code>
+                sudo eopkg upgrade
+            </code>
+        </pre>
+
+        
+        
+        <div class="img-post">
+            <img src="../assets/img-post/01/01.gif" alt="sudo eopkg">
+        </div>
+
+        <br>
+        <p>To know more about the solus packages read the <a href="https://help.getsol.us/docs/user/package-management/basics" target="_blank" style="color: grey;">Basics to Package Management.</a></p>
+        <br>
+        <p><strong> Use Flatpak to add flathub repository</strong></p>
+        <br>
+        <p>Why? many development applications and others that we use on ubuntu, debian, will not work properly or haven't disponible in solus.</p>
+        <br>
+        <p>In my case, I just need <i>add the flathub repository</i> and <i>reboot</i> the system</p>
+        <br>
+        <p><a href="https://flathub.org/setup/Solus" target="_blank" style="color: grey;">See here how to install Flatpak</a> don't worry, is very easy.</p>
+        <br>
+
+        <p><strong>Use the PKGS.ORG</strong></p>
+        <br>
+        <p> Packages for Linux and Unix - search and more packages for solus repository or another repository</p>
+        <br>
+        <p>Look at this example, just below the description you notice the package name that can be used with <i>sudo eopkg install packagename</i></p>
+        <br>
+        <p>In this example, I have installed the Gnome builder for gnome development. <i>sudo eopkg install gnome-builder</i></p>
+        <br>
+        <div class="img-post">
+            <img src="../assets/img-post/01/pkg-example.png" alt="PKGS.ORG">
+            <p style="text-align: center;"><i>Package description - Solus OS</i></p>
+        </div>
+
+        <br>
+        <p>In this other example, below yout can find the "HowTo install"</p>
+        <br>
+        <div class="img-post">
+            <img src="../assets/img-post/01/pkg-example2.png" alt="PKGS.ORG howto install" style="height: 100px;">
+            <p style="text-align: center;"><i>How to install package on Solus OS</i></p>
+        </div>
+
+    </div>
+</section>
+
+</main>
+
+<!--All posts-->
+<main class="shadow">
+    <section id="blog" class="section-size" style="color: grey;">
+        <h2 style="text-align: center;">Another Posts</h2>
+        <h3 style="text-align: center;">📂 All</h3>
+        <br>
+        <p><a href="/blog/04-creating-an-windows-environment-for-malware-analysis-with-boxes.html" target="_self">🐧 Solus OS - Creating an windows environment for malware analysis with boxes</a></p>
+        <p><a href="/blog/03-developer-setup.html" target="_self">🐧 Solus OS - Developer setup</a></p>
+        <p><a href="/blog/02-installing-firefox-developer.html" target="_self">🐧 Installing Firefox Developer - all linux OS</a></p>
+        <p><a href="/blog/01-solus-os-getting-started.html" target="_self">🐧 Solus OS - Getting started</a></p>
+    
+     </section>
+    </main>
+
+<footer>
+    <p class="nav-footer-shadow">2024 - Developed by
+        <a href="#">e student</a>
+    </p>
+</footer>
+
+
+
+</body>
+</html>
+
